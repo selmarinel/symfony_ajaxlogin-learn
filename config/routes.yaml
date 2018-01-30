@@ -3,3 +3,7 @@ index:
     controller: App\Controller\MainController::index
 logout:
     path: logout
+api:
+    resource: '.'
+    type: 'api_platform'
+    prefix: '/api' # Optional
